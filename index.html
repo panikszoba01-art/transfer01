@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transzfer</title>
+<style>
+  :root{
+    --bg:#eef1f6; --navy:#1f3a63; --navy-2:#274a7a; --line:#d7dee6;
+    --text:#1c2430; --muted:#6b7686;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px;}
+  .wrap{max-width:420px;width:100%;}
+  h1{font-size:20px;letter-spacing:.5px;text-align:center;margin-bottom:24px;color:var(--navy);}
+  a.card{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;margin-bottom:14px;text-decoration:none;color:var(--text);
+    box-shadow:0 1px 2px rgba(20,30,50,.06), 0 3px 10px rgba(20,30,50,.06);}
+  a.card b{display:block;font-size:16px;color:var(--navy);margin-bottom:4px;}
+  a.card span{font-size:13px;color:var(--muted);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>TRANSZFER</h1>
+    <a class="card" href="transzfer.html">
+      <b>Transzfer (Acumatica)</b>
+      <span>Inventory ID alapú lokáció-transzfer + SAP kód</span>
+    </a>
+    <a class="card" href="transzfer-sap.html">
+      <b>Transzfer (SAP)</b>
+      <span>Item No. alapú lokáció-transzfer</span>
+    </a>
+  </div>
+</body>
+</html>
